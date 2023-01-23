@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <title> </title>
+
+
+</head>
+<body> 
+    <h1 style =" position: relative;"> List App</h1>
+
+    
+<input type="text" name="" id=" personne">
+<br>
+<button id="ok" onclick="addname">ajouter à la liste</button>
+
+<script>
+    let contenu = document.querySelector("button");
+    function addname() {
+        if (isInputEmpty()) {
+          alert("Input empty, please type something !");
+          return;
+        }
+        contenu.innerHTML+=input.value
+        
+        function isInputEmpty() {
+        if (input.value == "") {
+          return true;
+        }
+        return false;
+      }}
+    
+</script>
+
+
+</body>
+</html>
